@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context >
+	<Resource  name="jdbc/blog"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="pis"
+	password="pisloader"
+	maxActive="100"
+	maxIdle="10"
+	maxWait="5000"
+	URIEncoding="UTF-8"
+	driverClassName="oracle.jdbc.driver.OracleDriver"
+	url="jdbc:oracle:thin:@(description=(address_list=(address=(host=10.100.1.171)(protocol=tcp)(port=1521))(load_balance=yes)(failover=yes))(connect_data=(service_name=piscls)))"/>
+</Context>
