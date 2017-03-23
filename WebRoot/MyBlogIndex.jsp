@@ -174,7 +174,7 @@ int totalPages = (Integer)request.getAttribute("totalPages");
                   	       for (Category cg : cgList) {
                   		       if (cg.getIsDelete() == 0) {
                   	%>	
-                  	<li><a href="<%=basePath%>user?action=myblogFilter&userId=<%=u.getId()%>&categoryId=<%=cg.getId()%>"><%=cg.getCategoryName() %></a></li>
+                  	<li><a href="<%=basePath%>user?action=myblogFilter&userId=<%=userId%>&categoryId=<%=cg.getId()%>"><%=cg.getCategoryName() %></a></li>
                   	<%         }
                   	       }
                   	   } else { %>
