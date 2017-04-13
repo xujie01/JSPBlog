@@ -73,7 +73,7 @@ int totalPages = (Integer)request.getAttribute("totalPages");
           } else {
           %>
           <div class="pull-right">
-                <ul class="nav pull-right">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">欢迎，<%=u.getUserName()%> <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="<%=basePath%>user?action=profile&id=<%=u.getId()%>"><i class="glyphicon glyphicon-cog"></i> 编辑个人信息</a></li>
