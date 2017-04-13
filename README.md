@@ -1,7 +1,7 @@
-#基于Bootstrap、JSP和Servelet的博客系统
-##项目介绍
+# 基于Bootstrap、JSP和Servelet的博客系统
+## 项目介绍
 基于Bootstrap + JSP + Servelet 技术开发的入门级博客系统：业务逻辑采用JSP、Servelet、JavaBean的MVC模式。表示层主要完成数据的显示、接收用户的输入等功能，使用JSP实现；HTML用于数据的显示样式，JavaScript负责用户客户端的数据验证；JavaBean负责执行业务逻辑，封装对数据库表的操作，完成业务处理逻辑；Servelet则作为逻辑控制器，接收JSP传递的用户请求，根据情况将信息转发给JavaBean处理，JavaBean将处理结果返回给Servelet，最后返回结果给客户端。
-###系统功能：
+### 系统功能：
 * 系统设置模块
 
 在处理业务或系统运行之前一般都需要设置一些基础数据，本系统主要是管理员信息。该信息由系统管理员进行设置，具体管理操作主要包括增、删、改、查、统计、分类等。
@@ -26,7 +26,7 @@
 
 普通用户可以增加、修改博客及增加、回复评论。
 
-###技术选型
+### 技术选型
 
 **后端技术**:
 
@@ -39,7 +39,7 @@
 * jQuery
 
 * Bootstrap
-###模块介绍
+### 模块介绍
 
 * 公共类设计
 
@@ -119,9 +119,9 @@ ArticleServlet.java：博文管理相关操作。
 
 AdminServlet.java：管理员相关操作。
 
-##环境搭建
+## 环境搭建
 
-###开发工具:
+### 开发工具:
 
 * Oracle: 数据库
 
@@ -133,13 +133,13 @@ AdminServlet.java：管理员相关操作。
 
 * PowerDesigner: 建模工具
 
-###开发环境：
+### 开发环境：
 
 * Jdk8
 
 * Oracle11g
 
-###演示地址
+### 演示地址
 
 演示地址： http://47.92.7.213:8080/blog/index.html
 
