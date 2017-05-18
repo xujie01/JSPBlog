@@ -27,9 +27,13 @@
 
 系统管理员可以重置用户的密码，普通用户能修改自己的密码。
 
-* 	博客信息管理
+* 	博客信息管理 
 
 普通用户可以增加、修改博客及增加、回复评论。
+
+### 组织结构
+
+![技术选型1](/documents/selection1.png)![技术选型2](/documents/selection2.png)
 
 ### 技术选型
 
@@ -124,9 +128,13 @@ ArticleServlet.java：博文管理相关操作。
 
 AdminServlet.java：管理员相关操作。
 
+### 数据模型
+
+![数据模型](/documents/data-model.png)
+
 ## 环境搭建
 
-### 开发工具:
+### 开发工具
 
 * Oracle: 数据库
 
@@ -138,13 +146,16 @@ AdminServlet.java：管理员相关操作。
 
 * PowerDesigner: 建模工具
 
-### 开发环境：
+### 开发环境
 
 * Jdk8
 
 * Oracle11g
 
-### 演示地址
+## 演示地址
 
 演示地址： http://47.92.7.213:8080/blog/index.html
 
+### 预览图
+
+![预览图](/documents/preview.png)
