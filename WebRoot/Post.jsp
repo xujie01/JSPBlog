@@ -131,7 +131,7 @@ List<Article> artList = (List<Article>)request.getAttribute("artList");//相关�
 					次
 				</p>
 				<hr>
-				<span><%=art.getContent().replaceAll("\\r\\n","<br>")%></span>
+				<span><%=art.getContent().replaceAll("\\r\\n","<br>").replaceAll("\\s","&nbsp;")%></span>
 				<%
 					} else {
 				%>
